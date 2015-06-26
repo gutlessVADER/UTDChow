@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UTD Chow</string>
+
+    <string name="hello_world">code some shit here or something</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_on_campus">On-Campus Chow</string>
+    <string name="button_off_campus">Off-Campus Chow</string>
+    <string name="button_monster">Monster Finder</string>
+    <string name="title_activity_on_campus">On-Campus Chow</string>
+    <string name="title_activity_off_campus">Off-Campus Chow</string>
+    <string name="title_activity_monster">Monster Finder</string>
+</resources>
