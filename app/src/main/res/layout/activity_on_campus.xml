@@ -5,8 +5,29 @@
     android:orientation="vertical"
     tools:context="com.matthewecker.utdchow.OnCampusActivity">
 
-    <TextView   android:text="@string/hello_world"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <GridLayout
+                android:id="@+id/on_rstrnt_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="">
+                </TextView>
+
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

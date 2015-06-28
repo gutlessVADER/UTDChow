@@ -18,7 +18,7 @@ public class MonsterActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_monster, menu);
+        getMenuInflater().inflate(R.menu.global_actions, menu);
         return true;
     }
 
